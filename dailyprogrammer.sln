@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge331", "Challenge331\Challenge331.csproj", "{58AF848D-F60C-4810-88E5-A5643397B396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge331", "Challenge331\Challenge331.csproj", "{58AF848D-F60C-4810-88E5-A5643397B396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
