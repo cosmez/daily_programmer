@@ -1,19 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using System.Runtime.Serialization;
 
-/// <summary>
-/// Detects Undefined functions and variables
-/// Handles functions and variables.   
-/// Handles Different environment for functions and variables
-/// Supports any number of function arguments
-/// 
-/// </summary>
+
 namespace Challenge331
 {
     enum TokeType { OpenParen, CloseParen, Number, Equals, Plus, Minus, Multiply, Divide,  Power,  Symbol, Fun, Comma}
@@ -90,7 +82,6 @@ namespace Challenge331
         {
             Dictionary<string, NumberValue> store = new Dictionary<string, NumberValue>();
             Dictionary<string, LambdaValue> functions = new Dictionary<string, LambdaValue>();
-            Run("x = 10 + c", store, functions);
             Run("5 + 5", store, functions);
             Run("(2 * 5 + 1) / 10", store, functions);
             Run("x =  1 / 2", store, functions);
